@@ -1,0 +1,82 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2023-12-24 18:04:57
+count workspace : e:\frontend\course\myFiles\16. world-wise
+total files : 57
+total code lines : 7918
+total comment lines : 40
+total blank lines : 167
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .js|              6|              1|              0|  0.076|
+   |           .svg|              1|              0|              0|  0.013|
+   |            .md|              5|              2|              3|  0.063|
+   |          .json|           6977|              0|             45|     88|
+   |               |             14|              9|              2|   0.18|
+   |           .cjs|             20|              0|              0|   0.25|
+   |           .jsx|            370|             14|             45|    4.7|
+   |           .css|            512|             14|             72|    6.5|
+   |          .html|             13|              0|              0|   0.16|
+   -------------------------------------------------------------------------
+.eslintrc.cjs, code is 20, comment is 0, blank is 0.
+.eslintrc.json, code is 3, comment is 0, blank is 0.
+.gitignore, code is 14, comment is 9, blank is 2.
+index.html, code is 13, comment is 0, blank is 0.
+package-lock.json, code is 6905, comment is 0, blank is 45.
+package.json, code is 29, comment is 0, blank is 0.
+public\bg.jpg, it is a binary file.
+public\icon.png, it is a binary file.
+public\img-1.jpg, it is a binary file.
+public\img-2.jpg, it is a binary file.
+public\logo.png, it is a binary file.
+public\vite.svg, code is 1, comment is 0, blank is 0.
+README.md, code is 5, comment is 2, blank is 3.
+src\App.jsx, code is 23, comment is 0, blank is 2.
+src\components\AppNav.jsx, code is 5, comment is 0, blank is 1.
+src\components\AppNav.module.css, code is 24, comment is 1, blank is 3.
+src\components\Button.module.css, code is 32, comment is 0, blank is 3.
+src\components\City.jsx, code is 51, comment is 2, blank is 9.
+src\components\City.module.css, code is 40, comment is 0, blank is 7.
+src\components\CityItem.module.css, code is 46, comment is 0, blank is 8.
+src\components\CityList.module.css, code is 13, comment is 0, blank is 2.
+src\components\CountryItem.jsx, code is 10, comment is 0, blank is 2.
+src\components\CountryItem.module.css, code is 16, comment is 0, blank is 3.
+src\components\CountryList.module.css, code is 11, comment is 0, blank is 1.
+src\components\Form.jsx, code is 49, comment is 1, blank is 9.
+src\components\Form.module.css, code is 38, comment is 0, blank is 6.
+src\components\Logo.jsx, code is 5, comment is 0, blank is 2.
+src\components\Logo.module.css, code is 3, comment is 0, blank is 0.
+src\components\Map.jsx, code is 0, comment is 0, blank is 0.
+src\components\Map.module.css, code is 31, comment is 1, blank is 6.
+src\components\Message.jsx, code is 9, comment is 0, blank is 2.
+src\components\Message.module.css, code is 7, comment is 0, blank is 0.
+src\components\PageNav.jsx, code is 24, comment is 0, blank is 1.
+src\components\PageNav.module.css, code is 29, comment is 1, blank is 4.
+src\components\Sidebar.jsx, code is 17, comment is 0, blank is 0.
+src\components\Sidebar.module.css, code is 16, comment is 0, blank is 3.
+src\components\Spinner.jsx, code is 9, comment is 0, blank is 2.
+src\components\Spinner.module.css, code is 19, comment is 0, blank is 2.
+src\components\SpinnerFullPage.jsx, code is 10, comment is 0, blank is 2.
+src\components\SpinnerFullPage.module.css, code is 5, comment is 0, blank is 0.
+src\components\User.jsx, code is 19, comment is 9, blank is 6.
+src\components\User.module.css, code is 31, comment is 0, blank is 3.
+src\data\cities.json, code is 40, comment is 0, blank is 0.
+src\index.css, code is 58, comment is 10, blank is 10.
+src\main.css, code is 4, comment is 0, blank is 0.
+src\main.jsx, code is 9, comment is 0, blank is 0.
+src\pages\AppLayout.jsx, code is 10, comment is 0, blank is 1.
+src\pages\AppLayout.module.css, code is 7, comment is 0, blank is 0.
+src\pages\Homepage.jsx, code is 25, comment is 0, blank is 0.
+src\pages\Homepage.module.css, code is 31, comment is 0, blank is 3.
+src\pages\Login.jsx, code is 35, comment is 1, blank is 4.
+src\pages\Login.module.css, code is 22, comment is 1, blank is 3.
+src\pages\PageNotFound.jsx, code is 7, comment is 0, blank is 0.
+src\pages\Pricing.jsx, code is 24, comment is 1, blank is 1.
+src\pages\Product.jsx, code is 29, comment is 0, blank is 1.
+src\pages\Product.module.css, code is 29, comment is 0, blank is 5.
+vite.config.js, code is 6, comment is 1, blank is 0.
+===============================================================================
