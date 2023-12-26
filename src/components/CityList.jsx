@@ -3,6 +3,8 @@ import Message from "./Message";
 import styles from "./CityList.module.css";
 import Spinner from "./Spinner";
 function CityList({ cities, isLoading }) {
+  console.log(cities.filter((city) => city.cityName));
+
   if (isLoading) {
     return <Spinner />;
   }

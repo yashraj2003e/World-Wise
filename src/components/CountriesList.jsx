@@ -2,11 +2,8 @@ import CityItem from "./CityItem";
 import Message from "./Message";
 import styles from "./CountriesList.module.css";
 import Spinner from "./Spinner";
-function CityList({ cities, isLoading }) {
-  cities = cities.map((city) => (
-      return {city.emoji}
-  )
-  );
+function CountriesList({ cities, isLoading }) {
+  cities = cities.map((city) => city.cityName);
 
   if (isLoading) {
     return <Spinner />;
@@ -27,4 +24,4 @@ function CityList({ cities, isLoading }) {
   );
 }
 
-export default CityList;
+export default CountriesList;
