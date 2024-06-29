@@ -406,6 +406,458 @@
                     "filename": "vite.config.js"
                 }
             ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2024-05-30 00:41:19",
+            "filesum": 65,
+            "codesum": 9563,
+            "commentsum": 51,
+            "blanksum": 221,
+            "statistics": {
+                ".js": {
+                    "code": 39,
+                    "comment": 1,
+                    "blank": 6
+                },
+                ".md": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".jsx": {
+                    "code": 718,
+                    "comment": 27,
+                    "blank": 87
+                },
+                ".svg": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".css": {
+                    "code": 512,
+                    "comment": 14,
+                    "blank": 69
+                },
+                ".json": {
+                    "code": 8197,
+                    "comment": 0,
+                    "blank": 45
+                },
+                ".html": {
+                    "code": 13,
+                    "comment": 0,
+                    "blank": 0
+                },
+                "": {
+                    "code": 14,
+                    "comment": 9,
+                    "blank": 2
+                },
+                ".cpp": {
+                    "code": 69,
+                    "comment": 0,
+                    "blank": 11
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": ".eslintrc.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 9,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "index.html"
+                },
+                {
+                    "blank": 45,
+                    "code": 8117,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "filename": "public\\bg.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\img-1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\img-2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public\\vite.svg"
+                },
+                {
+                    "blank": 1,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 3,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "src\\App.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "src\\components\\AppNav.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 24,
+                    "comment": 1,
+                    "filename": "src\\components\\AppNav.module.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src\\components\\BackButton.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\components\\Button.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "src\\components\\Button.module.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 57,
+                    "comment": 1,
+                    "filename": "src\\components\\City.jsx"
+                },
+                {
+                    "blank": 7,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "src\\components\\City.module.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "src\\components\\CityItem.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "src\\components\\CityItem.module.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "src\\components\\CityList.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\components\\CityList.module.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src\\components\\CountryItem.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src\\components\\CountryItem.module.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 26,
+                    "comment": 7,
+                    "filename": "src\\components\\CountryList.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src\\components\\CountryList.module.css"
+                },
+                {
+                    "blank": 22,
+                    "code": 112,
+                    "comment": 5,
+                    "filename": "src\\components\\Form.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "src\\components\\Form.module.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "src\\components\\Logo.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src\\components\\Logo.module.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 83,
+                    "comment": 0,
+                    "filename": "src\\components\\Map.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 31,
+                    "comment": 1,
+                    "filename": "src\\components\\Map.module.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\components\\Message.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\components\\Message.module.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "src\\components\\PageNav.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 29,
+                    "comment": 1,
+                    "filename": "src\\components\\PageNav.module.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "src\\components\\Sidebar.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src\\components\\Sidebar.module.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\components\\Spinner.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "src\\components\\Spinner.module.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src\\components\\SpinnerFullPage.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "src\\components\\SpinnerFullPage.module.css"
+                },
+                {
+                    "blank": 11,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "src\\components\\substr.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 19,
+                    "comment": 9,
+                    "filename": "src\\components\\User.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "src\\components\\User.module.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 67,
+                    "comment": 2,
+                    "filename": "src\\contexts\\CitiesContext.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "src\\data\\cities.json"
+                },
+                {
+                    "blank": 4,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "src\\hooks\\useGeolocation.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "src\\hooks\\UseUrlPosition.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 58,
+                    "comment": 10,
+                    "filename": "src\\index.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src\\main.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\main.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\pages\\AppLayout.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\pages\\AppLayout.module.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "src\\pages\\Homepage.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "src\\pages\\Homepage.module.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 1,
+                    "filename": "src\\pages\\Login.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 1,
+                    "filename": "src\\pages\\Login.module.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\pages\\PageNotFound.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 24,
+                    "comment": 1,
+                    "filename": "src\\pages\\Pricing.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "src\\pages\\Product.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "src\\pages\\Product.module.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "vite.config.js"
+                }
+            ]
         }
     ]
 }
