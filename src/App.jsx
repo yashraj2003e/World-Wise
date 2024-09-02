@@ -36,7 +36,7 @@ function App() {
                 <Route path="product" element={<Product />} />
                 <Route path="pricing" element={<Pricing />} />
                 <Route
-                  path="app"
+                  path="/app"
                   element={
                     <ProtectedRoute>
                       <AppLayout />

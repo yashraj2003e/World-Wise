@@ -1,4 +1,4 @@
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContext";
 import styles from "./Map.module.css";
@@ -60,8 +60,8 @@ export default function Map() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
         />
-        {cities.map((city) => (
-          <Marker position={[city.position.lat, city.position.lng]}>
+        {cities.map((city, id) => (
+          <Marker position={[city.position.lat, city.position.lng]} key={id}>
             <Popup>
               <span>{city.emoji}</span>
               <span>{city.cityName}</span>

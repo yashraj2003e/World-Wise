@@ -65,7 +65,7 @@ function CitiesProvider({ children }) {
     async function fetchCities() {
       dispatch({ type: "loading" });
       try {
-        const res = await fetch("http://localhost:3000/cities");
+        const res = await fetch("http://localhost:8000/cities");
         const data = await res.json();
         dispatch({ type: "cities/loaded", payload: data });
       } catch (e) {
@@ -84,9 +84,8 @@ function CitiesProvider({ children }) {
 
       dispatch({ type: "loading" });
       try {
-        const res = await fetch(`http://localhost:3000/cities/${id}`);
-        let data = await res.json();
-        data = data[0];
+        const res = await fetch(`http://localhost:8000/cities/${id}`);
+        const data = await res.json();
         dispatch({ type: "city/loaded", payload: data });
       } catch (e) {
         dispatch({
@@ -100,9 +99,8 @@ function CitiesProvider({ children }) {
 
   async function createCity(newCity) {
     dispatch({ type: "loading" });
-    newCity.id = crypto.randomUUID();
     try {
-      const res = await fetch(`http://localhost:3000/cities`, {
+      const res = await fetch(`http://localhost:8000/cities`, {
         method: "POST",
         body: JSON.stringify(newCity),
         headers: {
@@ -121,9 +119,10 @@ function CitiesProvider({ children }) {
   async function deleteCity(id) {
     dispatch({ type: "loading" });
     try {
-      await fetch(`http://localhost:3000/cities/${id}`, {
+      await fetch(`http://localhost:8000/cities/${id}`, {
         method: "DELETE",
       });
+
       dispatch({ type: "city/deleted", payload: id });
     } catch (e) {
       console.log(e);

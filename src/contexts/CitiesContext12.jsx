@@ -5,6 +5,7 @@ import {
   useEffect,
   useReducer,
 } from "react";
+import useLocalStorageState from "../hooks/UseLocalStorageState";
 
 const CityContext = createContext();
 
@@ -61,6 +62,8 @@ function CitiesProvider({ children }) {
     initialState
   );
 
+  console.log(cities);
+
   useEffect(() => {
     async function fetchCities() {
       dispatch({ type: "loading" });
@@ -85,8 +88,7 @@ function CitiesProvider({ children }) {
       dispatch({ type: "loading" });
       try {
         const res = await fetch(`http://localhost:3000/cities/${id}`);
-        let data = await res.json();
-        data = data[0];
+        const data = await res.json();
         dispatch({ type: "city/loaded", payload: data });
       } catch (e) {
         dispatch({
@@ -100,7 +102,6 @@ function CitiesProvider({ children }) {
 
   async function createCity(newCity) {
     dispatch({ type: "loading" });
-    newCity.id = crypto.randomUUID();
     try {
       const res = await fetch(`http://localhost:3000/cities`, {
         method: "POST",
@@ -111,6 +112,7 @@ function CitiesProvider({ children }) {
       });
 
       const data = await res.json();
+      console.log(data);
       dispatch({ type: "city/created", payload: data });
     } catch (e) {
       console.log(e);
@@ -124,6 +126,7 @@ function CitiesProvider({ children }) {
       await fetch(`http://localhost:3000/cities/${id}`, {
         method: "DELETE",
       });
+      console.log(id);
       dispatch({ type: "city/deleted", payload: id });
     } catch (e) {
       console.log(e);
