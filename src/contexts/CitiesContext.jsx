@@ -8,6 +8,8 @@ import {
 
 const CityContext = createContext();
 
+const baseUrl = import.meta.env.VITE_BACKEND_URL;
+
 const initialState = {
   cities: [],
   isLoading: false,
@@ -65,7 +67,7 @@ function CitiesProvider({ children }) {
     async function fetchCities() {
       dispatch({ type: "loading" });
       try {
-        const res = await fetch("http://localhost:3000/cities");
+        const res = await fetch(`${baseUrl}/cities`);
         const data = await res.json();
         dispatch({ type: "cities/loaded", payload: data });
       } catch (e) {
@@ -84,7 +86,7 @@ function CitiesProvider({ children }) {
 
       dispatch({ type: "loading" });
       try {
-        const res = await fetch(`http://localhost:3000/cities/${id}`);
+        const res = await fetch(`${baseUrl}/cities/${id}`);
         let data = await res.json();
         data = data[0];
         dispatch({ type: "city/loaded", payload: data });
@@ -102,7 +104,7 @@ function CitiesProvider({ children }) {
     dispatch({ type: "loading" });
     newCity.id = crypto.randomUUID();
     try {
-      const res = await fetch(`http://localhost:3000/cities`, {
+      const res = await fetch(`${baseUrl}/cities`, {
         method: "POST",
         body: JSON.stringify(newCity),
         headers: {
@@ -121,7 +123,7 @@ function CitiesProvider({ children }) {
   async function deleteCity(id) {
     dispatch({ type: "loading" });
     try {
-      await fetch(`http://localhost:3000/cities/${id}`, {
+      await fetch(`${baseUrl}/cities/${id}`, {
         method: "DELETE",
       });
       dispatch({ type: "city/deleted", payload: id });

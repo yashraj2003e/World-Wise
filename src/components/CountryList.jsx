@@ -19,7 +19,7 @@ function CountriesList() {
   // }, []);
 
   const countries = cities.map(({ country, emoji }) => ({ country, emoji }));
-  console.log(countries);
+  // console.log(countries);
 
   if (!cities.length) {
     return (

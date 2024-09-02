@@ -36,7 +36,7 @@ export default function Map() {
   useEffect(
     function () {
       if (geolocationPosition) {
-        console.log([geolocationPosition.lat, geolocationPosition.lng]);
+        // console.log([geolocationPosition.lat, geolocationPosition.lng]);
         setMapPosition([geolocationPosition.lat, geolocationPosition.lng]);
       }
     },

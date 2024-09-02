@@ -24,7 +24,15 @@ const Pricing = lazy(() => import("./pages/Homepage"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
 const Login = lazy(() => import("./pages/Login"));
 
+const baseUrl = import.meta.env.VITE_BACKEND_URL;
 function App() {
+  useEffect(() => {
+    async function turnOnServer() {
+      await fetch(baseUrl);
+    }
+    turnOnServer();
+  }, []);
+
   return (
     <>
       <AuthProvider>
